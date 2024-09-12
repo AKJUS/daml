@@ -25,10 +25,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.11.tgz#be879b52031cfb5d295b047f5462d8ef1a716446"
   integrity sha512-Otxmr2rrZLKRYIybtdG/sgeO+tHY20GxeDjcGmUnmmlCWyEnv2a2x1ZXBo3BTec4OiTXMQCiazB8NMBf0iRlFw==
 
-"@types/tmp@0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.0.29.tgz#3f188a758327375766babca50fee224aff09a13f"
-  integrity sha1-PxiKdYMnN1dmurylD+4iSv8JoT8=
+"@types/tmp@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.2.6.tgz#d785ee90c52d7cc020e249c948c36f7b32d1e217"
+  integrity sha512-chhaNf2oKHlRkDGt+tiKE2Z5aJ6qalm7Z9rlLdBwmOiAAf09YQvvoLXjWK4HWPF1xU/fqvMgfNfpVoBscA/tKA==
 
 "@types/vscode@1.52":
   version "1.52.0"
