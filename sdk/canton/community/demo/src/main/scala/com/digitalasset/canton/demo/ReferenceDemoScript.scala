@@ -618,7 +618,7 @@ object ReferenceDemoScript {
       synchronizerOwners = bankingSequencers ++ bankingMediators,
       synchronizerThreshold = PositiveInt.one,
       staticSynchronizerParameters =
-        StaticSynchronizerParameters.defaultsWithoutKMS(ProtocolVersion.latest),
+        StaticSynchronizerParameters.defaultsWithoutKMS(ProtocolVersion.forSynchronizer),
     )
     val medicalSequencers = consoleEnvironment.sequencers.all.filter(_.name == SequencerMedical)
     val medicalMediators = consoleEnvironment.mediators.all.filter(_.name == "mediatorMedical")
@@ -629,7 +629,7 @@ object ReferenceDemoScript {
       synchronizerOwners = medicalSequencers ++ medicalMediators,
       synchronizerThreshold = PositiveInt.one,
       staticSynchronizerParameters =
-        StaticSynchronizerParameters.defaultsWithoutKMS(ProtocolVersion.latest),
+        StaticSynchronizerParameters.defaultsWithoutKMS(ProtocolVersion.forSynchronizer),
     )
 
     val banking = getSequencer(SequencerBanking)
